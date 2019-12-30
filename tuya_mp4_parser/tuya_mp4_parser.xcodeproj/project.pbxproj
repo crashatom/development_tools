@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381E241B23ADC5640028F7B2 /* stssBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E241923ADC5640028F7B2 /* stssBox.cpp */; };
+		381E241E23ADC8A90028F7B2 /* sttsBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E241C23ADC8A90028F7B2 /* sttsBox.cpp */; };
+		381E242123ADCC2F0028F7B2 /* stsdBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E241F23ADCC2F0028F7B2 /* stsdBox.cpp */; };
+		381E242423AE04A30028F7B2 /* moovBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E242223AE04A30028F7B2 /* moovBox.cpp */; };
+		381E242723AE04EA0028F7B2 /* mvhdBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E242523AE04EA0028F7B2 /* mvhdBox.cpp */; };
+		381E242A23AE05020028F7B2 /* trakBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E242823AE05020028F7B2 /* trakBox.cpp */; };
+		381E242D23AE051F0028F7B2 /* tkhdBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E242B23AE051F0028F7B2 /* tkhdBox.cpp */; };
+		381E243023AE052F0028F7B2 /* edtsBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E242E23AE052F0028F7B2 /* edtsBox.cpp */; };
+		381E243323AE054B0028F7B2 /* mdiaBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E243123AE054B0028F7B2 /* mdiaBox.cpp */; };
+		381E243623AE05600028F7B2 /* mdhdBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E243423AE05600028F7B2 /* mdhdBox.cpp */; };
+		381E243923AE05750028F7B2 /* hdlrBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E243723AE05750028F7B2 /* hdlrBox.cpp */; };
+		381E243C23AE05850028F7B2 /* minfBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E243A23AE05850028F7B2 /* minfBox.cpp */; };
+		381E243F23AE05A40028F7B2 /* vmhdBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E243D23AE05A40028F7B2 /* vmhdBox.cpp */; };
+		381E244223AE05B40028F7B2 /* dinfBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E244023AE05B40028F7B2 /* dinfBox.cpp */; };
+		381E244523AE05D00028F7B2 /* stblBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E244323AE05D00028F7B2 /* stblBox.cpp */; };
+		381E244823AE494A0028F7B2 /* smhdBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E244623AE494A0028F7B2 /* smhdBox.cpp */; };
+		381E244B23AE4FF00028F7B2 /* udtaBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 381E244923AE4FF00028F7B2 /* udtaBox.cpp */; };
+		383AF92223A78CF10045DF3E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF92123A78CF10045DF3E /* main.cpp */; };
+		383AF92B23A792620045DF3E /* BasicBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF92923A792620045DF3E /* BasicBox.cpp */; };
+		383AF92E23A79BAF0045DF3E /* ftypBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF92C23A79BAF0045DF3E /* ftypBox.cpp */; };
+		383AF93123A79E370045DF3E /* Mp4File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF92F23A79E370045DF3E /* Mp4File.cpp */; };
+		383AF93523A7A2520045DF3E /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF93423A7A2520045DF3E /* Utils.cpp */; };
+		383AF93823A7A6160045DF3E /* BoxFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF93623A7A6160045DF3E /* BoxFactory.cpp */; };
+		383AF93C23A7CED90045DF3E /* freeBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF93A23A7CED90045DF3E /* freeBox.cpp */; };
+		383AF93F23A873150045DF3E /* mdatBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF93D23A873150045DF3E /* mdatBox.cpp */; };
+		383AF94223A8987C0045DF3E /* stcoBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF94023A8987C0045DF3E /* stcoBox.cpp */; };
+		383AF94523A8996C0045DF3E /* FullBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF94323A8996C0045DF3E /* FullBox.cpp */; };
+		383AF94823A8B63A0045DF3E /* stszBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF94623A8B63A0045DF3E /* stszBox.cpp */; };
+		383AF94B23A8B65D0045DF3E /* stscBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 383AF94923A8B65D0045DF3E /* stscBox.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		383AF91C23A78CF10045DF3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		381E241923ADC5640028F7B2 /* stssBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stssBox.cpp; sourceTree = "<group>"; };
+		381E241A23ADC5640028F7B2 /* stssBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stssBox.hpp; sourceTree = "<group>"; };
+		381E241C23ADC8A90028F7B2 /* sttsBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sttsBox.cpp; sourceTree = "<group>"; };
+		381E241D23ADC8A90028F7B2 /* sttsBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sttsBox.hpp; sourceTree = "<group>"; };
+		381E241F23ADCC2F0028F7B2 /* stsdBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stsdBox.cpp; sourceTree = "<group>"; };
+		381E242023ADCC2F0028F7B2 /* stsdBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stsdBox.hpp; sourceTree = "<group>"; };
+		381E242223AE04A30028F7B2 /* moovBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = moovBox.cpp; sourceTree = "<group>"; };
+		381E242323AE04A30028F7B2 /* moovBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = moovBox.hpp; sourceTree = "<group>"; };
+		381E242523AE04EA0028F7B2 /* mvhdBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mvhdBox.cpp; sourceTree = "<group>"; };
+		381E242623AE04EA0028F7B2 /* mvhdBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mvhdBox.hpp; sourceTree = "<group>"; };
+		381E242823AE05020028F7B2 /* trakBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trakBox.cpp; sourceTree = "<group>"; };
+		381E242923AE05020028F7B2 /* trakBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = trakBox.hpp; sourceTree = "<group>"; };
+		381E242B23AE051F0028F7B2 /* tkhdBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tkhdBox.cpp; sourceTree = "<group>"; };
+		381E242C23AE051F0028F7B2 /* tkhdBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tkhdBox.hpp; sourceTree = "<group>"; };
+		381E242E23AE052F0028F7B2 /* edtsBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = edtsBox.cpp; sourceTree = "<group>"; };
+		381E242F23AE052F0028F7B2 /* edtsBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = edtsBox.hpp; sourceTree = "<group>"; };
+		381E243123AE054B0028F7B2 /* mdiaBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mdiaBox.cpp; sourceTree = "<group>"; };
+		381E243223AE054B0028F7B2 /* mdiaBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mdiaBox.hpp; sourceTree = "<group>"; };
+		381E243423AE05600028F7B2 /* mdhdBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mdhdBox.cpp; sourceTree = "<group>"; };
+		381E243523AE05600028F7B2 /* mdhdBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mdhdBox.hpp; sourceTree = "<group>"; };
+		381E243723AE05750028F7B2 /* hdlrBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hdlrBox.cpp; sourceTree = "<group>"; };
+		381E243823AE05750028F7B2 /* hdlrBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hdlrBox.hpp; sourceTree = "<group>"; };
+		381E243A23AE05850028F7B2 /* minfBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minfBox.cpp; sourceTree = "<group>"; };
+		381E243B23AE05850028F7B2 /* minfBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minfBox.hpp; sourceTree = "<group>"; };
+		381E243D23AE05A40028F7B2 /* vmhdBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vmhdBox.cpp; sourceTree = "<group>"; };
+		381E243E23AE05A40028F7B2 /* vmhdBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vmhdBox.hpp; sourceTree = "<group>"; };
+		381E244023AE05B40028F7B2 /* dinfBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dinfBox.cpp; sourceTree = "<group>"; };
+		381E244123AE05B40028F7B2 /* dinfBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dinfBox.hpp; sourceTree = "<group>"; };
+		381E244323AE05D00028F7B2 /* stblBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stblBox.cpp; sourceTree = "<group>"; };
+		381E244423AE05D00028F7B2 /* stblBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stblBox.hpp; sourceTree = "<group>"; };
+		381E244623AE494A0028F7B2 /* smhdBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = smhdBox.cpp; sourceTree = "<group>"; };
+		381E244723AE494A0028F7B2 /* smhdBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = smhdBox.hpp; sourceTree = "<group>"; };
+		381E244923AE4FF00028F7B2 /* udtaBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = udtaBox.cpp; sourceTree = "<group>"; };
+		381E244A23AE4FF00028F7B2 /* udtaBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = udtaBox.hpp; sourceTree = "<group>"; };
+		383AF91E23A78CF10045DF3E /* tuya_mp4_parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tuya_mp4_parser; sourceTree = BUILT_PRODUCTS_DIR; };
+		383AF92123A78CF10045DF3E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		383AF92923A792620045DF3E /* BasicBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BasicBox.cpp; sourceTree = "<group>"; };
+		383AF92A23A792620045DF3E /* BasicBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicBox.h; sourceTree = "<group>"; };
+		383AF92C23A79BAF0045DF3E /* ftypBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftypBox.cpp; sourceTree = "<group>"; };
+		383AF92D23A79BAF0045DF3E /* ftypBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ftypBox.hpp; sourceTree = "<group>"; };
+		383AF92F23A79E370045DF3E /* Mp4File.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mp4File.cpp; sourceTree = "<group>"; };
+		383AF93023A79E370045DF3E /* Mp4File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp4File.h; sourceTree = "<group>"; };
+		383AF93223A79EEF0045DF3E /* ErrCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrCode.h; sourceTree = "<group>"; };
+		383AF93323A7A2520045DF3E /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		383AF93423A7A2520045DF3E /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		383AF93623A7A6160045DF3E /* BoxFactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BoxFactory.cpp; sourceTree = "<group>"; };
+		383AF93723A7A6160045DF3E /* BoxFactory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BoxFactory.hpp; sourceTree = "<group>"; };
+		383AF93A23A7CED90045DF3E /* freeBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = freeBox.cpp; sourceTree = "<group>"; };
+		383AF93B23A7CED90045DF3E /* freeBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = freeBox.hpp; sourceTree = "<group>"; };
+		383AF93D23A873150045DF3E /* mdatBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mdatBox.cpp; sourceTree = "<group>"; };
+		383AF93E23A873150045DF3E /* mdatBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mdatBox.hpp; sourceTree = "<group>"; };
+		383AF94023A8987C0045DF3E /* stcoBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stcoBox.cpp; sourceTree = "<group>"; };
+		383AF94123A8987C0045DF3E /* stcoBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stcoBox.hpp; sourceTree = "<group>"; };
+		383AF94323A8996C0045DF3E /* FullBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FullBox.cpp; sourceTree = "<group>"; };
+		383AF94423A8996C0045DF3E /* FullBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FullBox.hpp; sourceTree = "<group>"; };
+		383AF94623A8B63A0045DF3E /* stszBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stszBox.cpp; sourceTree = "<group>"; };
+		383AF94723A8B63A0045DF3E /* stszBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stszBox.hpp; sourceTree = "<group>"; };
+		383AF94923A8B65D0045DF3E /* stscBox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stscBox.cpp; sourceTree = "<group>"; };
+		383AF94A23A8B65D0045DF3E /* stscBox.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stscBox.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383AF91B23A78CF10045DF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383AF91523A78CF10045DF3E = {
+			isa = PBXGroup;
+			children = (
+				383AF93923A7B5C50045DF3E /* BoxParser */,
+				383AF92023A78CF10045DF3E /* tuya_mp4_parser */,
+				383AF91F23A78CF10045DF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383AF91F23A78CF10045DF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383AF91E23A78CF10045DF3E /* tuya_mp4_parser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383AF92023A78CF10045DF3E /* tuya_mp4_parser */ = {
+			isa = PBXGroup;
+			children = (
+				383AF93623A7A6160045DF3E /* BoxFactory.cpp */,
+				383AF93723A7A6160045DF3E /* BoxFactory.hpp */,
+				383AF92F23A79E370045DF3E /* Mp4File.cpp */,
+				383AF93023A79E370045DF3E /* Mp4File.h */,
+				383AF93223A79EEF0045DF3E /* ErrCode.h */,
+				383AF93323A7A2520045DF3E /* Utils.h */,
+				383AF93423A7A2520045DF3E /* Utils.cpp */,
+				383AF92123A78CF10045DF3E /* main.cpp */,
+			);
+			path = tuya_mp4_parser;
+			sourceTree = "<group>";
+		};
+		383AF93923A7B5C50045DF3E /* BoxParser */ = {
+			isa = PBXGroup;
+			children = (
+				383AF92923A792620045DF3E /* BasicBox.cpp */,
+				383AF92A23A792620045DF3E /* BasicBox.h */,
+				383AF92C23A79BAF0045DF3E /* ftypBox.cpp */,
+				383AF92D23A79BAF0045DF3E /* ftypBox.hpp */,
+				383AF93A23A7CED90045DF3E /* freeBox.cpp */,
+				383AF93B23A7CED90045DF3E /* freeBox.hpp */,
+				383AF93D23A873150045DF3E /* mdatBox.cpp */,
+				383AF93E23A873150045DF3E /* mdatBox.hpp */,
+				383AF94023A8987C0045DF3E /* stcoBox.cpp */,
+				383AF94123A8987C0045DF3E /* stcoBox.hpp */,
+				383AF94323A8996C0045DF3E /* FullBox.cpp */,
+				383AF94423A8996C0045DF3E /* FullBox.hpp */,
+				383AF94623A8B63A0045DF3E /* stszBox.cpp */,
+				383AF94723A8B63A0045DF3E /* stszBox.hpp */,
+				383AF94923A8B65D0045DF3E /* stscBox.cpp */,
+				383AF94A23A8B65D0045DF3E /* stscBox.hpp */,
+				381E241923ADC5640028F7B2 /* stssBox.cpp */,
+				381E241A23ADC5640028F7B2 /* stssBox.hpp */,
+				381E241C23ADC8A90028F7B2 /* sttsBox.cpp */,
+				381E241D23ADC8A90028F7B2 /* sttsBox.hpp */,
+				381E241F23ADCC2F0028F7B2 /* stsdBox.cpp */,
+				381E242023ADCC2F0028F7B2 /* stsdBox.hpp */,
+				381E242223AE04A30028F7B2 /* moovBox.cpp */,
+				381E242323AE04A30028F7B2 /* moovBox.hpp */,
+				381E242523AE04EA0028F7B2 /* mvhdBox.cpp */,
+				381E242623AE04EA0028F7B2 /* mvhdBox.hpp */,
+				381E242823AE05020028F7B2 /* trakBox.cpp */,
+				381E242923AE05020028F7B2 /* trakBox.hpp */,
+				381E242B23AE051F0028F7B2 /* tkhdBox.cpp */,
+				381E242C23AE051F0028F7B2 /* tkhdBox.hpp */,
+				381E242E23AE052F0028F7B2 /* edtsBox.cpp */,
+				381E242F23AE052F0028F7B2 /* edtsBox.hpp */,
+				381E243123AE054B0028F7B2 /* mdiaBox.cpp */,
+				381E243223AE054B0028F7B2 /* mdiaBox.hpp */,
+				381E243423AE05600028F7B2 /* mdhdBox.cpp */,
+				381E243523AE05600028F7B2 /* mdhdBox.hpp */,
+				381E243723AE05750028F7B2 /* hdlrBox.cpp */,
+				381E243823AE05750028F7B2 /* hdlrBox.hpp */,
+				381E243A23AE05850028F7B2 /* minfBox.cpp */,
+				381E243B23AE05850028F7B2 /* minfBox.hpp */,
+				381E243D23AE05A40028F7B2 /* vmhdBox.cpp */,
+				381E243E23AE05A40028F7B2 /* vmhdBox.hpp */,
+				381E244023AE05B40028F7B2 /* dinfBox.cpp */,
+				381E244123AE05B40028F7B2 /* dinfBox.hpp */,
+				381E244323AE05D00028F7B2 /* stblBox.cpp */,
+				381E244423AE05D00028F7B2 /* stblBox.hpp */,
+				381E244623AE494A0028F7B2 /* smhdBox.cpp */,
+				381E244723AE494A0028F7B2 /* smhdBox.hpp */,
+				381E244923AE4FF00028F7B2 /* udtaBox.cpp */,
+				381E244A23AE4FF00028F7B2 /* udtaBox.hpp */,
+			);
+			path = BoxParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383AF91D23A78CF10045DF3E /* tuya_mp4_parser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383AF92523A78CF10045DF3E /* Build configuration list for PBXNativeTarget "tuya_mp4_parser" */;
+			buildPhases = (
+				383AF91A23A78CF10045DF3E /* Sources */,
+				383AF91B23A78CF10045DF3E /* Frameworks */,
+				383AF91C23A78CF10045DF3E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tuya_mp4_parser;
+			productName = tuya_mp4_parser;
+			productReference = 383AF91E23A78CF10045DF3E /* tuya_mp4_parser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383AF91623A78CF10045DF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Tuya;
+				TargetAttributes = {
+					383AF91D23A78CF10045DF3E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 383AF91923A78CF10045DF3E /* Build configuration list for PBXProject "tuya_mp4_parser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 383AF91523A78CF10045DF3E;
+			productRefGroup = 383AF91F23A78CF10045DF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383AF91D23A78CF10045DF3E /* tuya_mp4_parser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383AF91A23A78CF10045DF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381E243623AE05600028F7B2 /* mdhdBox.cpp in Sources */,
+				383AF92B23A792620045DF3E /* BasicBox.cpp in Sources */,
+				383AF93123A79E370045DF3E /* Mp4File.cpp in Sources */,
+				383AF94B23A8B65D0045DF3E /* stscBox.cpp in Sources */,
+				381E242A23AE05020028F7B2 /* trakBox.cpp in Sources */,
+				381E241B23ADC5640028F7B2 /* stssBox.cpp in Sources */,
+				381E243923AE05750028F7B2 /* hdlrBox.cpp in Sources */,
+				381E242D23AE051F0028F7B2 /* tkhdBox.cpp in Sources */,
+				383AF92E23A79BAF0045DF3E /* ftypBox.cpp in Sources */,
+				383AF93F23A873150045DF3E /* mdatBox.cpp in Sources */,
+				381E242423AE04A30028F7B2 /* moovBox.cpp in Sources */,
+				383AF93523A7A2520045DF3E /* Utils.cpp in Sources */,
+				381E242723AE04EA0028F7B2 /* mvhdBox.cpp in Sources */,
+				381E244823AE494A0028F7B2 /* smhdBox.cpp in Sources */,
+				383AF93823A7A6160045DF3E /* BoxFactory.cpp in Sources */,
+				383AF92223A78CF10045DF3E /* main.cpp in Sources */,
+				383AF94823A8B63A0045DF3E /* stszBox.cpp in Sources */,
+				381E243F23AE05A40028F7B2 /* vmhdBox.cpp in Sources */,
+				381E244B23AE4FF00028F7B2 /* udtaBox.cpp in Sources */,
+				383AF94223A8987C0045DF3E /* stcoBox.cpp in Sources */,
+				381E243323AE054B0028F7B2 /* mdiaBox.cpp in Sources */,
+				381E241E23ADC8A90028F7B2 /* sttsBox.cpp in Sources */,
+				381E244223AE05B40028F7B2 /* dinfBox.cpp in Sources */,
+				383AF94523A8996C0045DF3E /* FullBox.cpp in Sources */,
+				381E244523AE05D00028F7B2 /* stblBox.cpp in Sources */,
+				381E243023AE052F0028F7B2 /* edtsBox.cpp in Sources */,
+				381E242123ADCC2F0028F7B2 /* stsdBox.cpp in Sources */,
+				383AF93C23A7CED90045DF3E /* freeBox.cpp in Sources */,
+				381E243C23AE05850028F7B2 /* minfBox.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		383AF92323A78CF10045DF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		383AF92423A78CF10045DF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		383AF92623A78CF10045DF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		383AF92723A78CF10045DF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383AF91923A78CF10045DF3E /* Build configuration list for PBXProject "tuya_mp4_parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383AF92323A78CF10045DF3E /* Debug */,
+				383AF92423A78CF10045DF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383AF92523A78CF10045DF3E /* Build configuration list for PBXNativeTarget "tuya_mp4_parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383AF92623A78CF10045DF3E /* Debug */,
+				383AF92723A78CF10045DF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383AF91623A78CF10045DF3E /* Project object */;
+}

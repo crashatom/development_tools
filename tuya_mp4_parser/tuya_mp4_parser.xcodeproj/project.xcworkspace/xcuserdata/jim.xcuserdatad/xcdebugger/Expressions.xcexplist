@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ftypBox::ParseData(unsigned char*, unsigned long&amp;):ftypBox.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "boxHeader">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
