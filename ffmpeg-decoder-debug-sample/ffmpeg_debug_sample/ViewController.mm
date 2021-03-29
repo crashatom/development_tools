@@ -1,11 +1,3 @@
-//
-//  ViewController.m
-//  ffmpeg_debug_sample
-//
-//  Created by Jim on 2019/10/25.
-//  Copyright © 2019 Tuya. All rights reserved.
-//
-
 #include <fcntl.h>
 
 #include "TYiOSVideoHWDecoder.h"
