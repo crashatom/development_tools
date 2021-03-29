@@ -1,11 +1,3 @@
-//
-//  AppDelegate.m
-//  ffmpeg_debug_sample
-//
-//  Created by Jim on 2019/10/25.
-//  Copyright © 2019 Tuya. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
