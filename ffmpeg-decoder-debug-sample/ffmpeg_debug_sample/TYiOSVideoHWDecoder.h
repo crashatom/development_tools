@@ -1,11 +1,3 @@
-//
-//  TYTYiOSVideoHardwareDecoder.h
-//  TYCameraSdk
-//
-//  Created by Jim on 2019/7/17.
-//  Copyright © 2019年 Tuya. All rights reserved.
-//
-
 #ifndef __TY_IOS_VIDEO_HW_DECODER_H__
 #define __TY_IOS_VIDEO_HW_DECODER_H__
 
