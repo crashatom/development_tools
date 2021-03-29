@@ -1,12 +1,3 @@
-//
-//  FFMpegH264Decoder.h
-//  H264Decode
-//
-//  Created by Jim on 19/5/30.
-//  Copyright (c) 2019年 Tuya. All rights reserved.
-//
-//  Description: ffmpeg解码器
-
 #ifndef __FFMPEG_H264_DECODER_H__
 #define __FFMPEG_H264_DECODER_H__
 
