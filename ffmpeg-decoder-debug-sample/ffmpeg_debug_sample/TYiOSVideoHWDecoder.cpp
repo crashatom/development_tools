@@ -1,11 +1,3 @@
-//
-//  TYiOSHardwareDecoder.cpp
-//  TYCameraSdk
-//
-//  Created by Jim on 2018/3/14.
-//  Copyright © 2018年 Tuya. All rights reserved.
-//
-
 #ifdef __APPLE__
 
 #include "TYPublic.h"
