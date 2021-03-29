@@ -1,11 +1,3 @@
-//
-//  MNPublic.h
-//  TYCameraSdk
-//
-//  Created by Jim on 2018/3/8.
-//  Copyright © 2018年 TuyaSmart. All rights reserved.
-//
-
 #ifndef __TY_PUBLIC_H__
 #define __TY_PUBLIC_H__
 
