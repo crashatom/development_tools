@@ -1,11 +1,3 @@
-//
-//  TYAVDefines.h
-//  TYCameraSdk
-//
-//  Created by Jim on 2018/4/8.
-//  Copyright © 2018年 Tuya. All rights reserved.
-//
-
 #ifndef __TYAVDefines_H__
 #define __TYAVDefines_H__
 
