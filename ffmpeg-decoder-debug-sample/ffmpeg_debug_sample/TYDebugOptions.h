@@ -1,11 +1,3 @@
-//
-//  TYDebugOptions.h
-//  TuyaCameraSDK
-//
-//  Created by Jim on 2019/3/26.
-//  Copyright © 2019 Tuya. All rights reserved.
-//
-
 #ifndef __TYDebugOptions_H__
 #define __TYDebugOptions_H__
 
