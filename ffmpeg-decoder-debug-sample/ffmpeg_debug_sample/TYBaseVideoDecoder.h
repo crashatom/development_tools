@@ -1,12 +1,3 @@
-//
-//  TYBaseVideoDecoder.h
-//  TYBaseVideoDecoder
-//
-//  Created by Jim on 19/7/15.
-//  Copyright (c) 2019年 Tuya. All rights reserved.
-//
-//  Description: 解码器基类
-
 #ifndef __TY_BASE_VIDEO_DECODER_H__
 #define __TY_BASE_VIDEO_DECODER_H__
 
