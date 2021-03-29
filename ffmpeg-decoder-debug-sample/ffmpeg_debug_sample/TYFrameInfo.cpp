@@ -1,11 +1,3 @@
-//
-//  TYFrameInfo.cpp
-//  TYCameraSdk
-//
-//  Created by Jim on 2018/6/26.
-//  Copyright © 2018年 Tuya. All rights reserved.
-//
-
 #include "TYPublic.h"
 #include "TYFrameInfo.h"
 
