@@ -1,11 +1,3 @@
-//
-//  TYUtils.c
-//  TYCameraSdk
-//
-//  Created by Jim on 2018/3/9.
-//  Copyright © 2018年 TuyaSmart. All rights reserved.
-//
-
 #include <string>
 #include <sstream>
 #include <stdlib.h>
